@@ -78,7 +78,7 @@ public class CertificateInner extends Resource {
     /**
      * Certificate password.
      */
-    @JsonProperty(value = "properties.password", required = true)
+    @JsonProperty(value = "properties.password")
     private String password;
 
     /**
